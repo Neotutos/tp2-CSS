@@ -1,0 +1,261 @@
+.Primertitulo {
+font-size:x-large;
+text-transform:capitalize;
+color: white;
+text-align: center;
+background-color: black;
+padding: 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+text-decoration:solid;
+
+
+}
+.Primerdiv{
+    
+    padding: auto;
+    width: 100%;
+    border-top: 0cap;
+    background-color: white;
+    margin-bottom: 20px;
+    margin: auto;
+}
+#cita{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+text-decoration:overline;
+text-transform: uppercase;
+color: rgb(59, 152, 168);
+}
+
+.contenedor1{
+    border: 4px solid gray;
+    margin: 10px;
+    margin-top: 5%;
+    border-style:groove;
+    background-color: white;
+    
+}
+.titulo2{
+    text-align: left;
+    margin-left: 5%;
+}
+.linea{
+    width: 95%;
+    border: 1px solid black;
+}
+
+.parrafo{
+    text-align: left;
+    margin-left: 5%;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    font-style: italic;
+}
+
+.parrafo2{
+    margin-left: 1%;
+}
+
+.box1{
+    padding: 4px;
+    margin: 1%;
+    border: 2px solid black;
+    box-shadow: 8px 10px 15px rgb(75, 63, 63);
+    border-radius: 15px 15px 15px;
+    background-color: white;
+    
+}
+#txtB1{
+    font-style:normal;
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+.box2{
+    padding: 5px;
+    margin: 1%;
+    margin-top: 3%;
+    border: 5px solid rgb(255, 208, 1);
+    border-radius: 20px 3px 20px;
+    background-color:rgb(102, 102, 102);
+}
+#txtB2{
+    font-style:normal;
+    font-size: large;
+    font-family: 'Times New Roman';
+    color:white;
+}
+.Boxabuelo { 
+    border: 2px solid black;
+    border-radius: 3px 3px 3px;
+    margin:2%;
+    background-color: white;
+
+}
+#txt1B{
+    margin-left: 2.5%;
+    padding: 0.4px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.boxrelativo{
+    background-color: rgb(216, 248, 248);
+    padding: 5px;
+    margin: 2.5%;
+    position: relative;
+    border-radius: 3px 3px 3px;
+    width: 90%;
+}
+.parraforel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+    text-decoration:solid ;
+    text-align: left;
+}
+.Boxabsoluto{
+     border: .5px solid rgb(32, 167, 172);
+     background-color: rgb(32, 167, 172);
+    padding: 5px;
+    position: absolute;
+    left: 45%;
+    top: 86%;
+    border-radius: 5px 5px 5px;
+    z-index: 15;
+}
+.parrafoabs{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-small;
+    text-align: left;
+    text-decoration: solid;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.h1 {
+    font-size: 1em;
+}
+.seccion {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    .h1 {
+        font-size: .6em;
+    }
+    .seccion {
+        width: 90%;
+        padding: 10px;
+    }
+}
+.parrafo2{
+    margin-left: 2%;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: green ;
+}
+.cita {
+    background-color: #f0f0f0;
+    border-left: 4px solid #999;
+    padding: 5px;
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.6;
+    font-style: italic;
+    margin-left: 2%;
+    font-size: small;
+}
+.txt2{
+    font-size: large;
+    margin-left: 2%;
+}
+.griv-container{
+background-color: white;
+display: flex;
+padding: 1.5rem;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
+justify-items: center;
+}
+.grid-item{
+    border: 1px solid black;
+    padding: .5%;
+margin: .3rem;
+width: 21vw;
+text-align: center;
+border-radius: 7px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+background-color: rgb(127, 120, 230) ;
+color: white;
+}
+.animacion{
+
+width: 100%;
+height: 500px;
+background-color: #f0f0f0;
+display: flex;
+justify-items: center;
+}
+.cuadrado{
+    width: 100px; 
+    height: 100px;
+    background-color: red;
+    border: red;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 3%;
+    top: 3%;
+    animation: mover 10s infinite;
+}
+
+.circulo {
+    width: 100px; 
+    height: 100px;
+    background-color: rgb(9, 255, 0); 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-items: center;
+    padding: 1%;
+    margin: 2%;
+    position: relative;
+    top: 33%;
+    left: 33%;
+    
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(1500px) translateY(0);
+    }
+    50%{
+        transform: translateX(1500px) translateY(350px);
+    }
+    75%{
+        transform: translateY(350px) translateX(0);
+    }
+    100%{
+        transform: translateX(0) translateY(350); 
+    }
+
+    
+}
